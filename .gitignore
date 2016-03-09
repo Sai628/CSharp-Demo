@@ -1,0 +1,6 @@
+[Bb]in/
+[Oo]obj/
+*.userprefs
+*.user
+.vscode
+.DS_Store
