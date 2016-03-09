@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDemo", "CSharpDemo\CSharpDemo.csproj", "{B391E62C-F67C-48D4-A96A-6AED774FA6D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B391E62C-F67C-48D4-A96A-6AED774FA6D0}.Debug|x86.ActiveCfg = Debug|x86
+		{B391E62C-F67C-48D4-A96A-6AED774FA6D0}.Debug|x86.Build.0 = Debug|x86
+		{B391E62C-F67C-48D4-A96A-6AED774FA6D0}.Release|x86.ActiveCfg = Release|x86
+		{B391E62C-F67C-48D4-A96A-6AED774FA6D0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

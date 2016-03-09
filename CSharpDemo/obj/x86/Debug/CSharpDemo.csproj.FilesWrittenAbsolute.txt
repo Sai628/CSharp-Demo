@@ -1,0 +1,9 @@
+/Users/Sai/github/CSharp-Demo/CSharpDemo/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Sai/github/CSharp-Demo/CSharpDemo/bin/Debug/CSharpDemo.exe.mdb
+/Users/Sai/github/CSharp-Demo/CSharpDemo/bin/Debug/CSharpDemo.exe
+/Users/Sai/github/CSharp-Demo/CSharpDemo/obj/x86/Debug/CSharpDemo.exe
+/Users/Sai/github/CSharp-Demo/CSharpDemo/obj/x86/Debug/CSharpDemo.exe.mdb
+/Users/Sai/github/CSharp-Demo/CSharpDemo/bin/Debug/HelloWorld.exe.mdb
+/Users/Sai/github/CSharp-Demo/CSharpDemo/bin/Debug/HelloWorld.exe
+/Users/Sai/github/CSharp-Demo/CSharpDemo/obj/x86/Debug/HelloWorld.exe
+/Users/Sai/github/CSharp-Demo/CSharpDemo/obj/x86/Debug/HelloWorld.exe.mdb
