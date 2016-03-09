@@ -2,5 +2,5 @@
 [Oo]obj/
 *.userprefs
 *.user
-.vscode
+.vscode/
 .DS_Store
