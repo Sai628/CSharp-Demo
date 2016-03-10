@@ -13,6 +13,7 @@ namespace CSharpDemo
             TestEnum.DoTest();
             TestInheritance.DoTest();
             TestPolymorphism.DoTest();
+            TestOperatorOvl.DoTest();
 		}
 	}
 }
