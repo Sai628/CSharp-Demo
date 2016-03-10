@@ -9,7 +9,7 @@ namespace CSharpDemo
             Sun, Mon, Tue, Wed, Thu, Fri, Sat
         }
         
-        public static void doTest()
+        public static void DoTest()
         {
             int weekDayStart = (int)Days.Mon;
             int weekDayEnd = (int)Days.Fri;

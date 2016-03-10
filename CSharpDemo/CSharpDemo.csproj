@@ -34,6 +34,7 @@
     <Compile Include="TestArray.cs" />
     <Compile Include="TestBase.cs" />
     <Compile Include="TestEnum.cs" />
+    <Compile Include="TestInheritance.cs" />
     <Compile Include="TestMain.cs" />
     <Compile Include="TestString.cs" />
     <Compile Include="TestStruct.cs" />

@@ -6,11 +6,12 @@ namespace CSharpDemo
 	{
 		static void Main(string[] args)
 		{
-            TestBase.doTest();
-            TestArray.doTest();
-            TestString.doTest();
-            TestStruct.doTest();
-            TestEnum.doTest();
+            TestBase.DoTest();
+            TestArray.DoTest();
+            TestString.DoTest();
+            TestStruct.DoTest();
+            TestEnum.DoTest();
+            TestInheritance.DoTest();
 		}
 	}
 }

@@ -4,17 +4,17 @@ namespace CSharpDemo
 {
     public class TestBase
     {
-        public static void doTest()
+        public static void DoTest()
         {
             int a = 100;
     		int b = 200;
             
             Console.WriteLine("{0}, {1}", a, b);
-			TestBase.swap(ref a, ref b);
+			TestBase.Swap(ref a, ref b);
 			Console.WriteLine("{0}, {1}", a, b);
 
 			int c, d;
-			TestBase.getValue(out c, out d);
+			TestBase.GetValue(out c, out d);
 			Console.WriteLine("{0}, {1}", c, d);
 
 			int? num1 = null;
@@ -30,12 +30,12 @@ namespace CSharpDemo
         }
         
         
-        public static int factorial(int num)
+        public static int Factorial(int num)
 		{
-			return (num == 1 ? 1 : factorial(num - 1) * num);
+			return (num == 1 ? 1 : Factorial(num - 1) * num);
 		}
 
-		public static void swap(ref int x, ref int y)
+		public static void Swap(ref int x, ref int y)
 		{
 			int temp = x;
 			x = y;
@@ -43,7 +43,7 @@ namespace CSharpDemo
 		}
 
 
-		public static void getValue(out int x, out int y)
+		public static void GetValue(out int x, out int y)
 		{
 			x = 12;
 			y = 13;

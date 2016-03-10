@@ -4,7 +4,7 @@ namespace CSharpDemo
 {
     public class TestString
     {
-        public static void doTest()
+        public static void DoTest()
         {
             string fname = "Rowan";
             string lname = "Atkinson";

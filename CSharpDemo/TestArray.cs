@@ -4,7 +4,7 @@ namespace CSharpDemo
 {
     public class TestArray
     {
-        public static void doTest()
+        public static void DoTest()
         {
             int[] n = new int[10];
             for (int i = 0; i < 10; i++)
@@ -36,7 +36,7 @@ namespace CSharpDemo
             }
             
             int[] balance = new int[]{1000, 2, 3, 17, 50};
-            Console.WriteLine("平均值是:{0}", TestArray.getAverage(balance));
+            Console.WriteLine("平均值是:{0}", TestArray.GetAverage(balance));
             
             int sum = TestArray.AddElements(1, 3, 5, 7, 9);
             int[] array3 = new int[]{11, 9, 7, 5, 3, 1};
@@ -73,7 +73,7 @@ namespace CSharpDemo
         }
         
         
-        public static double getAverage(int[] array)
+        public static double GetAverage(int[] array)
         {
             int sum = 0;
             foreach (int i in array)

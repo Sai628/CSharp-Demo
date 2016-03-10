@@ -10,7 +10,7 @@ namespace CSharpDemo
         private int _book_id;
         
      
-        public void setValues(string title, string author, string subject, int book_id)
+        public void SetValues(string title, string author, string subject, int book_id)
         {
             _title = title;
             _author = author;
@@ -19,7 +19,7 @@ namespace CSharpDemo
         }
         
         
-        public void display()
+        public void Display()
         {
             Console.WriteLine("title: {0}", _title);
             Console.WriteLine("author: {0}", _author);
@@ -31,16 +31,16 @@ namespace CSharpDemo
     
     public class TestStruct
     {
-        public static void doTest()
+        public static void DoTest()
         {
             Books book1 = new Books();
             Books book2 = new Books();
             
-            book1.setValues("C Programming", "Nuha Ali", "C Programming Tutorial", 6495407);
-            book2.setValues("Telecom Billing", "Zara Ali", "Telecom Billing Tutorial", 6495700);
+            book1.SetValues("C Programming", "Nuha Ali", "C Programming Tutorial", 6495407);
+            book2.SetValues("Telecom Billing", "Zara Ali", "Telecom Billing Tutorial", 6495700);
             
-            book1.display();
-            book2.display();
+            book1.Display();
+            book2.Display();
         }
     }
 }
