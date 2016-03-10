@@ -1,6 +1,6 @@
 using System;
 
-namespace HelloWorld
+namespace CSharpDemo
 {
     public class TestBase
     {
