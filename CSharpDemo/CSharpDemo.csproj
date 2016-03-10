@@ -37,6 +37,7 @@
     <Compile Include="TestInheritance.cs" />
     <Compile Include="TestInterface.cs" />
     <Compile Include="TestMain.cs" />
+    <Compile Include="TestNameSpace.cs" />
     <Compile Include="TestOperatorOvl.cs" />
     <Compile Include="TestPolymorphism.cs" />
     <Compile Include="TestString.cs" />
