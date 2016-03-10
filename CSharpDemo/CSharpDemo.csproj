@@ -35,6 +35,7 @@
     <Compile Include="TestBase.cs" />
     <Compile Include="TestEnum.cs" />
     <Compile Include="TestInheritance.cs" />
+    <Compile Include="TestInterface.cs" />
     <Compile Include="TestMain.cs" />
     <Compile Include="TestOperatorOvl.cs" />
     <Compile Include="TestPolymorphism.cs" />

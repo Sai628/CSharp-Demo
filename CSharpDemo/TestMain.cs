@@ -14,6 +14,7 @@ namespace CSharpDemo
             TestInheritance.DoTest();
             TestPolymorphism.DoTest();
             TestOperatorOvl.DoTest();
+            TestInterface.DoTest();
         }
     }
 }
