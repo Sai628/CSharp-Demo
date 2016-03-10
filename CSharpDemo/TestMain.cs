@@ -4,8 +4,8 @@ namespace CSharpDemo
 {
     public class TestMain
 	{
-		static void Main(string[] args)
-		{
+        static void Main(string[] args)
+        {
             TestBase.DoTest();
             TestArray.DoTest();
             TestString.DoTest();
@@ -14,7 +14,7 @@ namespace CSharpDemo
             TestInheritance.DoTest();
             TestPolymorphism.DoTest();
             TestOperatorOvl.DoTest();
-		}
+        }
 	}
 }
 
