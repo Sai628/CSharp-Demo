@@ -16,6 +16,7 @@ public class TestMain
         TestNameSpace.DoTest();
         TestPreprocessor.DoTest();
         TestException.DoTest();
+        TestFileIO.DoTest();
     }
 }
 
