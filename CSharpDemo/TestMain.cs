@@ -10,6 +10,7 @@ namespace CSharpDemo
             TestArray.doTest();
             TestString.doTest();
             TestStruct.doTest();
+            TestEnum.doTest();
 		}
 	}
 }
