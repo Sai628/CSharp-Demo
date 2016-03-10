@@ -6,7 +6,7 @@ namespace CSharpDemo
 	{
 		static void Main(string[] args)
 		{
-			TestBase.doTest();
+            TestBase.doTest();
             TestArray.doTest();
             TestString.doTest();
             TestStruct.doTest();
