@@ -36,6 +36,7 @@
     <Compile Include="TestEnum.cs" />
     <Compile Include="TestInheritance.cs" />
     <Compile Include="TestMain.cs" />
+    <Compile Include="TestPolymorphism.cs" />
     <Compile Include="TestString.cs" />
     <Compile Include="TestStruct.cs" />
   </ItemGroup>

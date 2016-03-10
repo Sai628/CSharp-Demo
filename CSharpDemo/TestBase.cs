@@ -35,6 +35,7 @@ namespace CSharpDemo
 			return (num == 1 ? 1 : Factorial(num - 1) * num);
 		}
 
+
 		public static void Swap(ref int x, ref int y)
 		{
 			int temp = x;

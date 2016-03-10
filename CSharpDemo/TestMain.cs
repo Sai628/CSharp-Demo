@@ -12,6 +12,7 @@ namespace CSharpDemo
             TestStruct.DoTest();
             TestEnum.DoTest();
             TestInheritance.DoTest();
+            TestPolymorphism.DoTest();
 		}
 	}
 }
