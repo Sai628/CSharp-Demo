@@ -14,6 +14,7 @@ public class TestMain
         TestOperatorOvl.DoTest();
         TestInterface.DoTest();
         TestNameSpace.DoTest();
+        TestPreprocessor.DoTest();
     }
 }
 

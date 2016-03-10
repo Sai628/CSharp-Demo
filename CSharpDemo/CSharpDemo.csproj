@@ -40,6 +40,7 @@
     <Compile Include="TestNameSpace.cs" />
     <Compile Include="TestOperatorOvl.cs" />
     <Compile Include="TestPolymorphism.cs" />
+    <Compile Include="TestPreprocessor.cs" />
     <Compile Include="TestString.cs" />
     <Compile Include="TestStruct.cs" />
   </ItemGroup>
