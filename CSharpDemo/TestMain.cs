@@ -3,7 +3,7 @@
 namespace CSharpDemo
 {
     public class TestMain
-	{
+    {
         static void Main(string[] args)
         {
             TestBase.DoTest();
@@ -15,6 +15,6 @@ namespace CSharpDemo
             TestPolymorphism.DoTest();
             TestOperatorOvl.DoTest();
         }
-	}
+    }
 }
 
