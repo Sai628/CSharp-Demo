@@ -7,7 +7,8 @@ namespace CSharpDemo
     {
         public static void DoTest()
         {
-            FileStream file = new FileStream("test.dat", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            string filePath = Directory.GetCurrentDirectory() + "/CSharpDemo/bin/Debug/test.dat";
+            FileStream file = new FileStream(filePath, FileMode.OpenOrCreate, FileAccess.ReadWrite);
             
             for (int i = 0; i <= 20; i++)
             {
@@ -23,19 +24,19 @@ namespace CSharpDemo
             Console.WriteLine();
             file.Close();
             
-            string[] names = {"Zara Ali", "Nuha Ali"};
-            string fileName = "name.txt";
-            using(StreamWriter sw = new StreamWriter(fileName))
+            filePath = Directory.GetCurrentDirectory() + "/CSharpDemo/bin/Debug/name.txt";
+            using(StreamWriter sw = new StreamWriter(filePath))
             {
+                string[] names = {"Zara Ali", "Nuha Ali"};
                 foreach (string s in names)
                 {
                     sw.WriteLine(s);
                 }
             }
             
-            string line = "";
-            using(StreamReader sr = new StreamReader(fileName))
+            using(StreamReader sr = new StreamReader(filePath))
             {
+                string line = "";
                 while ((line = sr.ReadLine()) != null)
                 {
                     Console.WriteLine(line);
@@ -43,7 +44,7 @@ namespace CSharpDemo
             }
             
             
-            DirectoryInfo myDir = new DirectoryInfo(@"./");
+            DirectoryInfo myDir = new DirectoryInfo(Directory.GetCurrentDirectory() + "/CSharpDemo/bin/Debug/");
             FileInfo[] files = myDir.GetFiles();
             foreach (FileInfo fileInfo in files)
             {
