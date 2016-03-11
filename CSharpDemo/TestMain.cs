@@ -19,6 +19,7 @@ public class TestMain
         TestFileIO.DoTest();
         TestAttribute.DoTest();
         TestReflection.DoTest();
+        TestProperty.DoTest();
     }
 }
 
