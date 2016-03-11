@@ -18,6 +18,7 @@ public class TestMain
         TestException.DoTest();
         TestFileIO.DoTest();
         TestAttribute.DoTest();
+        TestReflection.DoTest();
     }
 }
 
