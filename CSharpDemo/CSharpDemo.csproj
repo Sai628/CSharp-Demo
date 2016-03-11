@@ -37,6 +37,7 @@
     <Compile Include="TestEnum.cs" />
     <Compile Include="TestException.cs" />
     <Compile Include="TestFileIO.cs" />
+    <Compile Include="TestIndexer.cs" />
     <Compile Include="TestInheritance.cs" />
     <Compile Include="TestInterface.cs" />
     <Compile Include="TestMain.cs" />

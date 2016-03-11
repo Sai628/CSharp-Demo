@@ -20,6 +20,7 @@ public class TestMain
         TestAttribute.DoTest();
         TestReflection.DoTest();
         TestProperty.DoTest();
+        TestIndexer.DoTest();
     }
 }
 
