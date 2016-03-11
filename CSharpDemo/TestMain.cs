@@ -17,6 +17,7 @@ public class TestMain
         TestPreprocessor.DoTest();
         TestException.DoTest();
         TestFileIO.DoTest();
+        TestAttribute.DoTest();
     }
 }
 

@@ -32,6 +32,7 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Compile Include="TestArray.cs" />
+    <Compile Include="TestAttribute.cs" />
     <Compile Include="TestBase.cs" />
     <Compile Include="TestEnum.cs" />
     <Compile Include="TestException.cs" />
