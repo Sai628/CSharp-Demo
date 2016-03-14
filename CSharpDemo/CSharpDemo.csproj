@@ -34,6 +34,7 @@
     <Compile Include="TestArray.cs" />
     <Compile Include="TestAttribute.cs" />
     <Compile Include="TestBase.cs" />
+    <Compile Include="TestCollection.cs" />
     <Compile Include="TestDelegate.cs" />
     <Compile Include="TestEnum.cs" />
     <Compile Include="TestEvent.cs" />

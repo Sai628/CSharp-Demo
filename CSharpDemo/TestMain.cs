@@ -23,6 +23,7 @@ public class TestMain
         TestIndexer.DoTest();
         TestDelegate.DoTest();
         TestEvent.DoTest();
+        TestCollection.DoTest();
     }
 }
 
