@@ -31,6 +31,7 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
+    <Compile Include="TestAnonymousMethod.cs" />
     <Compile Include="TestArray.cs" />
     <Compile Include="TestAttribute.cs" />
     <Compile Include="TestBase.cs" />

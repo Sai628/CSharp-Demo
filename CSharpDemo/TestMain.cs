@@ -25,6 +25,7 @@ public class TestMain
         TestEvent.DoTest();
         TestCollection.DoTest();
         TestGeneric.DoTest();
+        TestAnonymousMethod.DoTest();
     }
 }
 
