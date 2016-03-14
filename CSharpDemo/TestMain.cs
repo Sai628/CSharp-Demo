@@ -22,6 +22,7 @@ public class TestMain
         TestProperty.DoTest();
         TestIndexer.DoTest();
         TestDelegate.DoTest();
+        TestEvent.DoTest();
     }
 }
 
