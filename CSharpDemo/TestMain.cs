@@ -9,6 +9,7 @@ public class TestMain
         TestString.DoTest();
         TestStruct.DoTest();
         TestEnum.DoTest();
+        
         TestInheritance.DoTest();
         TestPolymorphism.DoTest();
         TestOperatorOvl.DoTest();
@@ -17,6 +18,7 @@ public class TestMain
         TestPreprocessor.DoTest();
         TestException.DoTest();
         TestFileIO.DoTest();
+        
         TestAttribute.DoTest();
         TestReflection.DoTest();
         TestProperty.DoTest();
@@ -27,6 +29,7 @@ public class TestMain
         TestGeneric.DoTest();
         TestAnonymousMethod.DoTest();
         TestUnsafeCode.DoTest();
+        TestThread.DoTest();
     }
 }
 
