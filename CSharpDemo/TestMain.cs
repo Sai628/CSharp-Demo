@@ -26,6 +26,7 @@ public class TestMain
         TestCollection.DoTest();
         TestGeneric.DoTest();
         TestAnonymousMethod.DoTest();
+        TestUnsafeCode.DoTest();
     }
 }
 
