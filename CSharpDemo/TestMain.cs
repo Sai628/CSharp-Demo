@@ -24,6 +24,7 @@ public class TestMain
         TestDelegate.DoTest();
         TestEvent.DoTest();
         TestCollection.DoTest();
+        TestGeneric.DoTest();
     }
 }
 
