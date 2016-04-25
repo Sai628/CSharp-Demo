@@ -81,10 +81,10 @@ namespace CSharpDemo
             stu.Name = "Zara";
             stu.Age = 13;
             
-            Console.WriteLine("Student Info: {0}", stu);
+            Console.WriteLine("Student Info: {0}", stu);  // Student Info: Code:007, Name:Zara, Age:13
             
             stu.Age += 1;
-            Console.WriteLine("Student Info: {0}", stu);
+            Console.WriteLine("Student Info: {0}", stu);  // Student Info: Code:007, Name:Zara, Age:14
         }
     }    
 }

@@ -58,8 +58,8 @@ namespace CSharpDemo
            rect.SetWidth(5);
            rect.SetHeight(7);
            
-           Console.WriteLine("area: {0}", rect.GetArea()); 
-           Console.WriteLine("cost: {0}", rect.GetCost(rect.GetArea()));        
+           Console.WriteLine("area: {0}", rect.GetArea());  // area: 35
+           Console.WriteLine("cost: {0}", rect.GetCost(rect.GetArea()));  // cost: 2450
         }
     }
 }

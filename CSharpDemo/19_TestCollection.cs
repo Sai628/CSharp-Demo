@@ -18,13 +18,13 @@ namespace CSharpDemo
             list.Add(23);
             list.Add(9);
             
-            Console.WriteLine("Capacity: {0}", list.Capacity);
-            Console.WriteLine("Count: {0}", list.Count);
+            Console.WriteLine("Capacity: {0}", list.Capacity);  // Capacity: 8
+            Console.WriteLine("Count: {0}", list.Count);  // Count: 7
             
             Console.WriteLine("Content: ");
             foreach (var item in list)
             {
-                Console.Write(item + " ");
+                Console.Write(item + " ");  // 45 77 33 56 12 23 9 
             }
             
             Console.WriteLine();
@@ -32,7 +32,7 @@ namespace CSharpDemo
             list.Sort();
             foreach (var item in list)
             {
-                Console.Write(item + " ");
+                Console.Write(item + " ");  // 9 12 23 33 45 56 77 
             }
             Console.WriteLine();
         }
@@ -63,6 +63,14 @@ namespace CSharpDemo
             {
                 Console.WriteLine(key + ": " + table[key]);
             }
+            // 007: Ritesh Saikia
+            // 004: Mausam Benazir Nur
+            // 005: M. Amlan
+            // 008: Nuha Ali
+            // 002: Abida Rehman
+            // 003: Joe Holzner
+            // 001: Zara Ali
+            // 006: M. Arif
             Console.WriteLine();
         }
         
@@ -92,6 +100,14 @@ namespace CSharpDemo
             {
                 Console.WriteLine(key + ": " + list[key]);
             }
+            // 001: Zara Ali
+            // 002: Abida Rehman
+            // 003: Joe Holzner
+            // 004: Mausam Benazir Nur
+            // 005: M. Amlan
+            // 006: M. Arif
+            // 007: Ritesh Saikia
+            // 008: Nuha Ali
             Console.WriteLine();
         }
         
@@ -107,18 +123,18 @@ namespace CSharpDemo
             Console.WriteLine("Current stack: ");
             foreach (string str in st)
             {
-                Console.Write(str + " ");
+                Console.Write(str + " ");  // W G M A 
             }
             Console.WriteLine();
             
             st.Push("V");
             st.Push("H");
-            Console.WriteLine("The next popable value in stack: {0}", st.Peek());
+            Console.WriteLine("The next popable value in stack: {0}", st.Peek());  // The next popable value in stack: H
             
             Console.WriteLine("Current stack: ");
             foreach (string str in st)
             {
-                Console.Write(str + " ");
+                Console.Write(str + " ");  // H V W G M A 
             }
             Console.WriteLine();
             
@@ -130,7 +146,7 @@ namespace CSharpDemo
             Console.WriteLine("Current statck: ");
             foreach (string str in st)
             {
-                Console.Write(str + " ");
+                Console.Write(str + " ");  // G M A 
             }
             Console.WriteLine();
         }
@@ -147,7 +163,7 @@ namespace CSharpDemo
             Console.WriteLine("Current queue: ");
             foreach (string str in q)
             {
-                Console.Write(str + " ");
+                Console.Write(str + " ");  // A M G W 
             }
             Console.WriteLine();
             
@@ -157,12 +173,12 @@ namespace CSharpDemo
             Console.WriteLine("Current queuen: ");
             foreach (string str in q)
             {
-                Console.Write(str + " ");
+                Console.Write(str + " ");  // A M G W V H 
             }
             Console.WriteLine();
             
-            Console.WriteLine("The removed value: {0}", q.Dequeue());
-            Console.WriteLine("The removed value: {0}", q.Dequeue());
+            Console.WriteLine("The removed value: {0}", q.Dequeue());  // The removed value: A
+            Console.WriteLine("The removed value: {0}", q.Dequeue());  // The removed value: M
         }
         
         
@@ -179,14 +195,14 @@ namespace CSharpDemo
             Console.WriteLine("Bit array ba1: 60");
             for (int i = 0; i < ba1.Count; i++)
             {
-                Console.Write("{0} ", ba1[i]);
+                Console.Write("{0} ", ba1[i]);  // False False True True True True False False 
             }
             Console.WriteLine();
             
             Console.WriteLine("Bit array ba2: 13");
             for (int i = 0; i < ba2.Count; i++)
             {
-                Console.Write("{0} ", ba2[i]);
+                Console.Write("{0} ", ba2[i]);  // True False True True False False False False 
             }
             Console.WriteLine();
             
@@ -194,7 +210,7 @@ namespace CSharpDemo
             Console.WriteLine("Bit array ba3 after AND operation: 12");
             for (int i = 0; i < ba3.Count; i++)
             {
-                Console.Write("{0} ", ba3[i]);
+                Console.Write("{0} ", ba3[i]);  // False False True True False False False False 
             }
             Console.WriteLine();
             
@@ -202,7 +218,7 @@ namespace CSharpDemo
             Console.WriteLine("Bit array ba4 after OR operation: 61 {0}", ba4);
             for (int i = 0; i < ba4.Count; i++)
             {
-                Console.Write("{0} ", ba4[i]);
+                Console.Write("{0} ", ba4[i]);  // True False True True False False False False 
             }
             Console.WriteLine();
         }

@@ -107,6 +107,11 @@ namespace CSharpDemo
             
             boilerEvent.LogProcess();
             fileLog.Close();
+            
+            // Logging Info:
+            // Temparature: 100
+            // Pressure: 12
+            // Message: O.K
         }
     }    
 }

@@ -33,30 +33,30 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Compile Include="TestAnonymousMethod.cs" />
-    <Compile Include="TestArray.cs" />
-    <Compile Include="TestAttribute.cs" />
-    <Compile Include="TestBase.cs" />
-    <Compile Include="TestCollection.cs" />
-    <Compile Include="TestDelegate.cs" />
-    <Compile Include="TestEnum.cs" />
-    <Compile Include="TestEvent.cs" />
-    <Compile Include="TestException.cs" />
-    <Compile Include="TestFileIO.cs" />
-    <Compile Include="TestGeneric.cs" />
-    <Compile Include="TestIndexer.cs" />
-    <Compile Include="TestInheritance.cs" />
-    <Compile Include="TestInterface.cs" />
+    <Compile Include="00_TestBase.cs" />
+    <Compile Include="01_TestArray.cs" />
+    <Compile Include="02_TestString.cs" />
+    <Compile Include="03_TestStruct.cs" />
+    <Compile Include="04_TestEnum.cs" />
+    <Compile Include="05_TestInheritance.cs" />
+    <Compile Include="06_TestPolymorphism.cs" />
+    <Compile Include="07_TestOperatorOvl.cs" />
+    <Compile Include="08_TestInterface.cs" />
+    <Compile Include="09_TestNameSpace.cs" />
+    <Compile Include="10_TestPreprocessor.cs" />
+    <Compile Include="11_TestException.cs" />
+    <Compile Include="12_TestFileIO.cs" />
+    <Compile Include="13_TestAttribute.cs" />
+    <Compile Include="14_TestReflection.cs" />
+    <Compile Include="15_TestProperty.cs" />
+    <Compile Include="16_TestIndexer.cs" />
+    <Compile Include="17_TestDelegate.cs" />
+    <Compile Include="18_TestEvent.cs" />
+    <Compile Include="19_TestCollection.cs" />
+    <Compile Include="20_TestGeneric.cs" />
+    <Compile Include="21_TestAnonymousMethod.cs" />
+    <Compile Include="22_TestUnsafeCode.cs" />
+    <Compile Include="23_TestThread.cs" />
     <Compile Include="TestMain.cs" />
-    <Compile Include="TestNameSpace.cs" />
-    <Compile Include="TestOperatorOvl.cs" />
-    <Compile Include="TestPolymorphism.cs" />
-    <Compile Include="TestPreprocessor.cs" />
-    <Compile Include="TestProperty.cs" />
-    <Compile Include="TestReflection.cs" />
-    <Compile Include="TestString.cs" />
-    <Compile Include="TestStruct.cs" />
-    <Compile Include="TestThread.cs" />
-    <Compile Include="TestUnsafeCode.cs" />
   </ItemGroup>
 </Project>

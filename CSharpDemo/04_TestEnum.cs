@@ -14,8 +14,8 @@ namespace CSharpDemo
         {
             int weekDayStart = (int)Days.Mon;
             int weekDayEnd = (int)Days.Fri;
-            Console.WriteLine("Monday: {0}", weekDayStart);
-            Console.WriteLine("Friday: {0}", weekDayEnd);
+            Console.WriteLine("Monday: {0}", weekDayStart);  // Monday: 1
+            Console.WriteLine("Friday: {0}", weekDayEnd);  // Friday: 5
         }
     }
 }

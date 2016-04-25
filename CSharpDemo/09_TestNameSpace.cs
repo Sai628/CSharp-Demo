@@ -34,8 +34,8 @@ namespace CSharpDemo
         {
             A a = new A();
             B b = new B();
-            a.Func();
-            b.Func();
+            a.Func();  // Inside first space
+            b.Func();  // Inside second space
         }
     }
 }

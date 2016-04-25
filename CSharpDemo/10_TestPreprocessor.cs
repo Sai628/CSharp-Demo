@@ -12,7 +12,7 @@ namespace CSharpDemo
         {
             #if (PI)
             {
-                Console.WriteLine("PI is defined");
+                Console.WriteLine("PI is defined");  // PI is defined
             }
             #else
             {
@@ -30,7 +30,7 @@ namespace CSharpDemo
             }
             #elif (DEBUG && VC_V10)
             {
-                Console.WriteLine("DEBUG and VC_V10 are defined");
+                Console.WriteLine("DEBUG and VC_V10 are defined");  // DEBUG and VC_V10 are defined
             }
             #else
             {

@@ -44,11 +44,15 @@ namespace CSharpDemo
             object[] attributes = info.GetCustomAttributes(true);
             foreach (var attr in attributes)
             {
-                Console.WriteLine(attr);
+                Console.WriteLine(attr);  // HelpAttribute
             }
             
             Rectangle3 rect = new Rectangle3(12, 24);
             rect.Display();
+            // Length: 12
+            // Width: 24
+            // Area: 288
+            
             
             Type type = typeof(Rectangle3);
             foreach (var attr in type.GetCustomAttributes(false))
@@ -62,6 +66,16 @@ namespace CSharpDemo
                     Console.WriteLine("Remarks: {0}", bugInfo.Message);
                 }
             }
+            // Bug No: 45
+            // Developer: Zara Ali
+            // Last Review: 09/02/2016
+            // Remarks: Return type mismatch
+            
+            // Bug No: 49
+            // Developer: Nuha Ali
+            // Last Review: 10/02/2016
+            // Remarks: Unused Variable
+            
             
             foreach (var method in type.GetMethods())
             {
@@ -76,6 +90,15 @@ namespace CSharpDemo
                         Console.WriteLine("Remarks: {0}", bugInfo.Message);
                     }
                 }
+                // Bug No: 55
+                // Developer: Zara Ali
+                // Last Review: 14/02/2016
+                // Remarks: Return type mismatch
+                
+                // Bug No: 56
+                // Developer: Zara Ali
+                // Last Review: 16/02/2016
+                // Remarks: 
             }
         }
     }    

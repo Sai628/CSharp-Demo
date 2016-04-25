@@ -63,16 +63,16 @@ namespace CSharpDemo
             NumberChanger nc = nc1 + nc2;
             
             nc(5);
-            Console.WriteLine("value of Num: {0}", GetNum());
+            Console.WriteLine("value of Num: {0}", GetNum());  // value of Num: 75
             
             nc1(25);
-            Console.WriteLine("value if Num: {0}", GetNum());
+            Console.WriteLine("value if Num: {0}", GetNum());  // value if Num: 100
             nc2(5);
-            Console.WriteLine("value of Num: {0}", GetNum());
+            Console.WriteLine("value of Num: {0}", GetNum());  // value of Num: 500
             
             PrintString ps1 = new PrintString(WriteToScreen);
             PrintString ps2 = new PrintString(WriteToFile);
-            sendString(ps1);
+            sendString(ps1);  // The string is: Hello World!
             sendString(ps2);
         }
     }

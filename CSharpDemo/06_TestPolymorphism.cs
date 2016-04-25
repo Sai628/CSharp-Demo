@@ -83,15 +83,15 @@ namespace CSharpDemo
         public static void DoTest()
         {
             Printdata print = new Printdata();
-            print.Print(5);
-            print.Print(3.0);
-            print.Print("Hello C#");
+            print.Print(5);  // Printing int: 5
+            print.Print(3.0);  // Printing double: 3
+            print.Print("Hello C#");  // Printing string: Hello C#
             
             Rectangle2 rect = new Rectangle2(10, 7);
             Triangle tri = new Triangle(12, 8);
             Caller c = new Caller();
-            c.CallArea(rect);
-            c.CallArea(tri);
+            c.CallArea(rect);  // area: 70
+            c.CallArea(tri);  // area: 48
         }
     }
 }

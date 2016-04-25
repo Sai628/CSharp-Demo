@@ -122,14 +122,14 @@ namespace CSharpDemo
             box2.SetBreadth(13.0);
             box2.SetHeight(10.0);
             
-            Console.WriteLine("box1: {0}", box1.ToString());
-            Console.WriteLine("box1 volumn: {0}", box1.GetVolumn());
-            Console.WriteLine("box2: {0}", box2.ToString());
-            Console.WriteLine("box2 volumn: {0}", box2.GetVolumn());
+            Console.WriteLine("box1: {0}", box1.ToString());  // box1: (6, 7, 5)
+            Console.WriteLine("box1 volumn: {0}", box1.GetVolumn());  // box1 volumn: 210
+            Console.WriteLine("box2: {0}", box2.ToString());  // box2: (12, 13, 10)
+            Console.WriteLine("box2 volumn: {0}", box2.GetVolumn());  // box2 volumn: 1560
             
             box3 = box1 + box2;
-            Console.WriteLine("box3: {0}", box3.ToString());
-            Console.WriteLine("box3 volumn: {0}", box3.GetVolumn());
+            Console.WriteLine("box3: {0}", box3.ToString());  // box3: (18, 20, 15)
+            Console.WriteLine("box3 volumn: {0}", box3.GetVolumn());  // box3 volumn: 5400
             
             if (box1 > box2)
             {
@@ -137,12 +137,12 @@ namespace CSharpDemo
             }
             else
             {
-                Console.WriteLine("box1 <= box2");
+                Console.WriteLine("box1 <= box2");  // box1 <= box2
             }
             
             if (box1 < box2)
             {
-                Console.WriteLine("box1 < box2");
+                Console.WriteLine("box1 < box2");  // box1 < box2
             }
             else
             {
@@ -155,12 +155,12 @@ namespace CSharpDemo
             }
             else
             {
-                Console.WriteLine("box1 < box2");
+                Console.WriteLine("box1 < box2");  // box1 < box2
             }
             
             if (box1 <= box2)
             {
-                Console.WriteLine("box1 <= box2");
+                Console.WriteLine("box1 <= box2");  // box1 <= box2
             }
             else
             {
@@ -169,7 +169,7 @@ namespace CSharpDemo
             
             if (box1 != box2)
             {
-                Console.WriteLine("box1 != box2");
+                Console.WriteLine("box1 != box2");  // box1 != box2
             }
             else
             {
@@ -182,13 +182,13 @@ namespace CSharpDemo
             }
             else
             {
-                Console.WriteLine("box1 != box2");
+                Console.WriteLine("box1 != box2");  // box1 != box2
             }
             
             box4 = box3;
             if (box3 == box4)
             {
-                Console.WriteLine("box3 == box4");
+                Console.WriteLine("box3 == box4");  // box3 == box4
             }
             else
             {

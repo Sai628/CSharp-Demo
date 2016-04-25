@@ -19,7 +19,7 @@ namespace CSharpDemo
             }
             catch (ThreadAbortException e)
             {
-                Console.WriteLine("Thread Abort Exception");
+                Console.WriteLine("Thread Abort Exception: {0}", e);
             }
             finally
             {
@@ -32,16 +32,20 @@ namespace CSharpDemo
         {
             Thread th = Thread.CurrentThread;
             th.Name = "MainThread";
-            Console.WriteLine("This is {0}", th.Name);
+            Console.WriteLine("This is {0}", th.Name);  // This is MainThread
             
             ThreadStart childRef = new ThreadStart(CallInChildThread);
             Console.WriteLine("In Main: Creating the child thread");
             
             Thread childThread = new Thread(childRef);
             childThread.Start();
+            // Child thread starts...
+            // 0
+            // 1
+            // 2
             
             Thread.Sleep(2000);
-            Console.WriteLine("In Main: Aborting the child thread");
+            Console.WriteLine("In Main: Aborting the child thread");  // In Main: Aborting the child thread
             
             childThread.Abort();
         }

@@ -39,13 +39,13 @@ namespace CSharpDemo
             {
                 Console.WriteLine("Anonymous Method: {0}", n);
             };
-            nc(10);
+            nc(10);  // Anonymous Method: 10
             
             nc = new NumberChangerDelegate(DelegateClass2.AddNum);
-            nc(5);
+            nc(5);  // Named Method: 15
             
             nc = new NumberChangerDelegate(DelegateClass2.MutlNum);
-            nc(10);
+            nc(10);  // Named Method: 150
         }
     }
 }

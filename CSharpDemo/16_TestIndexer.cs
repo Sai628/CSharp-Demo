@@ -76,8 +76,19 @@ namespace CSharpDemo
             {
                 Console.WriteLine(names[i]);
             }
-            Console.WriteLine(names["Nuha"]);
-            Console.WriteLine(names["Sai"]);
+            // Zara
+            // Riz
+            // Nuha
+            // Asif
+            // Davinder
+            // Sunil
+            // Rubic
+            // N.A
+            // N.A
+            // N.A
+            
+            Console.WriteLine(names["Nuha"]);  // 2
+            Console.WriteLine(names["Sai"]);  // -1
         }
     }
 }

@@ -8,8 +8,8 @@ namespace CSharpDemo
         {
             int a = 20;
             int* p = &a;
-            Console.WriteLine("Data is: {0}", a);
-            Console.WriteLine("Address is: {0}", (int)p);
+            Console.WriteLine("Data is: {0}", a);  // Data is: 20
+            Console.WriteLine("Address is: {0}", (int)p);  // address is: 1537908736
         }
         
         
@@ -28,10 +28,10 @@ namespace CSharpDemo
             unsafe
             {
                 int a = 20;
-                int*p = &a;
-                Console.WriteLine("Data is: {0}", a);
-                Console.WriteLine("Data is: {0}", p->ToString());
-                Console.WriteLine("Address is: {0}", (int)p);
+                int* p = &a;
+                Console.WriteLine("Data is: {0}", a);  // Data is: 20
+                Console.WriteLine("Data is: {0}", p->ToString());  // Data is: 20
+                Console.WriteLine("Address is: {0}", (int)p);  // Address is: 1547776104
             }
             
             unsafe
@@ -40,9 +40,9 @@ namespace CSharpDemo
                 int var2 = 20;
                 int* x = &var1;
                 int* y = &var2;
-                Console.WriteLine("Before swap values: {0}, {1}", var1, var2);
+                Console.WriteLine("Before swap values: {0}, {1}", var1, var2);  // Before swap values: 10, 20
                 Swap(x, y);
-                Console.WriteLine("After swap values: {0}, {1}", var1, var2);       
+                Console.WriteLine("After swap values: {0}, {1}", var1, var2);  // After swap values: 20, 10    
             }
             
             unsafe
@@ -55,6 +55,12 @@ namespace CSharpDemo
                     Console.WriteLine("Address of list[{0}]={1}", i, (int)(ptr + i));
                     Console.WriteLine("Value of list[{0}]={1}", i, *(ptr + i));
                 }
+                // Address of list[0]=67151640
+                // Value of list[0]=10
+                // Address of list[1]=67151644
+                // Value of list[1]=20
+                // Address of list[2]=67151648
+                // Value of list[2]=30
             }
         }
     }    

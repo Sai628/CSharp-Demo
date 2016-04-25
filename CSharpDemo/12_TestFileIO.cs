@@ -19,7 +19,7 @@ namespace CSharpDemo
             
             for (int i = 0; i <= 20; i++)
             {
-                Console.Write(file.ReadByte() + " ");
+                Console.Write(file.ReadByte() + " ");  // 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
             }
             Console.WriteLine();
             file.Close();
@@ -40,6 +40,8 @@ namespace CSharpDemo
                 while ((line = sr.ReadLine()) != null)
                 {
                     Console.WriteLine(line);
+                    // Zara Ali
+                    // Nuha Ali
                 }
             }
             
@@ -50,6 +52,10 @@ namespace CSharpDemo
             {
                 Console.WriteLine("File Name: {0} Size: {1}", fileInfo.Name, fileInfo.Length);
             }
+            // File Name: CSharpDemo.exe Size: 32768
+            // File Name: CSharpDemo.exe.mdb Size: 14047
+            // File Name: name.txt Size: 18
+            // File Name: test.dat Size: 21
         }
     }
 }

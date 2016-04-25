@@ -9,13 +9,13 @@ namespace CSharpDemo
             int a = 100;
     		int b = 200;
             
-            Console.WriteLine("{0}, {1}", a, b);
+            Console.WriteLine("{0}, {1}", a, b);  // 100, 200
 			TestBase.Swap(ref a, ref b);
-			Console.WriteLine("{0}, {1}", a, b);
+			Console.WriteLine("{0}, {1}", a, b);  // 200, 100
 
 			int c, d;
 			TestBase.GetValue(out c, out d);
-			Console.WriteLine("{0}, {1}", c, d);
+			Console.WriteLine("{0}, {1}", c, d);  //12, 13
 
 			int? num1 = null;
 			int? num2 = 45;
@@ -26,7 +26,7 @@ namespace CSharpDemo
 			double num5;
 			num5 = num3 ?? 5.34;
 
-			Console.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}", num1, num2, num3, num4, boolValue, num5);
+			Console.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}", num1, num2, num3, num4, boolValue, num5);  // , 45, , 3.14159, , 5.34
         }
         
         

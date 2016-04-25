@@ -55,6 +55,13 @@ namespace CSharpDemo
             
             t1.ShowTransaction();
             t2.ShowTransaction();
+            
+            // Transaction: 001
+            // Date: 8/02/2016
+            // Amount: 10000
+            // Transaction: 002
+            // Date: 2/03/2016
+            // Amount: 12000
         }
     }
 }

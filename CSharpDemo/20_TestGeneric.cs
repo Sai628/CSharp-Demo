@@ -79,7 +79,7 @@ namespace CSharpDemo
             
             for (int i = 0; i < size; i++)
             {
-                Console.Write(intArray.GetItem(i) + " ");
+                Console.Write(intArray.GetItem(i) + " ");  // 0 10 20 30 40 
             }
             Console.WriteLine();
             
@@ -92,7 +92,7 @@ namespace CSharpDemo
             
             for (int i = 0; i < size; i++)
             {
-                Console.Write(charArray.GetItem(i) + " ");
+                Console.Write(charArray.GetItem(i) + " ");  // a b c d e 
             }
             Console.WriteLine();
             
@@ -100,22 +100,22 @@ namespace CSharpDemo
             int b = 20;
             char c = 'i';
             char d = 'j';
-            Console.WriteLine("Int value before calling swap: a={0}, b={1}", a, b);
-            Console.WriteLine("Char value before calling swap: c={0}, d={1}", c, d);
+            Console.WriteLine("Int value before calling swap: a={0}, b={1}", a, b);  // Int value before calling swap: a=10, b=20
+            Console.WriteLine("Char value before calling swap: c={0}, d={1}", c, d);  // Char value before calling swap: c=i, d=j
             
             Swap<int>(ref a, ref b);
             Swap<char>(ref c, ref d);
             
-            Console.WriteLine("Int value after calling swap: a={0}, b={1}", a, b);
-            Console.WriteLine("Char value after calling swap: c={0}, d={1}", c, d);
+            Console.WriteLine("Int value after calling swap: a={0}, b={1}", a, b);  // Int value after calling swap: a=20, b=10
+            Console.WriteLine("Char value after calling swap: c={0}, d={1}", c, d);  // Char value after calling swap: c=j, d=i
             Console.WriteLine();
             
             var nc1 = new NumberChangerWithGeneric<int>(DelegateClass.AddNum);
             var nc2 = new NumberChangerWithGeneric<int>(DelegateClass.MultNum);
             nc1(25);
-            Console.WriteLine("Value of Num: {0}", DelegateClass.GetNum());
+            Console.WriteLine("Value of Num: {0}", DelegateClass.GetNum());  // Value of Num: 35
             nc2(5);
-            Console.WriteLine("Value of Num: {0}", DelegateClass.GetNum());
+            Console.WriteLine("Value of Num: {0}", DelegateClass.GetNum());  // Value of Num: 175
         }
     }
 }

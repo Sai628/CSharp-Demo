@@ -103,6 +103,9 @@ namespace CSharpDemo
         {
             Rectangle3 rect = new Rectangle3(13, 14);
             rect.Display();
+            // Length: 13
+            // Width: 14
+            // Area: 182
         }
     }
 }
