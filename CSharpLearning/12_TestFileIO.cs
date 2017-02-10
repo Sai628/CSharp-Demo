@@ -1,13 +1,13 @@
 using System;
 using System.IO;
 
-namespace CSharpDemo
+namespace CSharpLearning
 {
     public class TestFileIO
     {
         public static void DoTest()
         {
-            string filePath = Directory.GetCurrentDirectory() + "/CSharpDemo/bin/Debug/test.dat";
+            string filePath = Directory.GetCurrentDirectory() + "/CSharpLearning/bin/Debug/test.dat";
             FileStream file = new FileStream(filePath, FileMode.OpenOrCreate, FileAccess.ReadWrite);
             
             for (int i = 0; i <= 20; i++)
@@ -24,7 +24,7 @@ namespace CSharpDemo
             Console.WriteLine();
             file.Close();
             
-            filePath = Directory.GetCurrentDirectory() + "/CSharpDemo/bin/Debug/name.txt";
+            filePath = Directory.GetCurrentDirectory() + "/CSharpLearning/bin/Debug/name.txt";
             using(StreamWriter sw = new StreamWriter(filePath))
             {
                 string[] names = {"Zara Ali", "Nuha Ali"};
@@ -46,14 +46,14 @@ namespace CSharpDemo
             }
             
             
-            DirectoryInfo myDir = new DirectoryInfo(Directory.GetCurrentDirectory() + "/CSharpDemo/bin/Debug/");
+            DirectoryInfo myDir = new DirectoryInfo(Directory.GetCurrentDirectory() + "/CSharpLearning/bin/Debug/");
             FileInfo[] files = myDir.GetFiles();
             foreach (FileInfo fileInfo in files)
             {
                 Console.WriteLine("File Name: {0} Size: {1}", fileInfo.Name, fileInfo.Length);
             }
-            // File Name: CSharpDemo.exe Size: 32768
-            // File Name: CSharpDemo.exe.mdb Size: 14047
+            // File Name: CSharpLearning.exe Size: 32768
+            // File Name: CSharpLearning.exe.mdb Size: 14047
             // File Name: name.txt Size: 18
             // File Name: test.dat Size: 21
         }

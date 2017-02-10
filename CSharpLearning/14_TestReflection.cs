@@ -34,7 +34,7 @@ class MyClass
 }
 
 
-namespace CSharpDemo
+namespace CSharpLearning
 {
     public class TestReflection
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace CSharpDemo
+namespace CSharpLearning
 {
     delegate void NumberChangerDelegate(int n);
     

@@ -1,6 +1,6 @@
 using System;
 
-namespace CSharpDemo
+namespace CSharpLearning
 {
     [AttributeUsage(AttributeTargets.Class |
     AttributeTargets.Constructor |

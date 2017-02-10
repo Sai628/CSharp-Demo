@@ -26,7 +26,7 @@ namespace FirstSpace
 }
 
 
-namespace CSharpDemo
+namespace CSharpLearning
 {
     public class TestNameSpace
     {

@@ -2,5 +2,9 @@
 [Oo]bj/
 *.userprefs
 *.user
-.vscode/
+
+# MacOS
 .DS_Store
+
+# IDE
+.vscode

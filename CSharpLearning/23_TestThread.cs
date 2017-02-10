@@ -1,7 +1,7 @@
 using System;
 using System.Threading;
 
-namespace CSharpDemo
+namespace CSharpLearning
 {
     public class TestThread
     {

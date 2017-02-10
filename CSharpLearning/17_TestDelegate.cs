@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace CSharpDemo
+namespace CSharpLearning
 {
     public delegate int NumberChanger(int n);
     public delegate void PrintString(string s);
@@ -40,7 +40,7 @@ namespace CSharpDemo
         
         public static void WriteToFile(string str)
         {
-            string filePath = Directory.GetCurrentDirectory() + "/CSharpDemo/bin/Debug/message.txt";
+            string filePath = Directory.GetCurrentDirectory() + "/CSharpLearning/bin/Debug/message.txt";
             FileStream fs = new FileStream(filePath, FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter sw = new StreamWriter(fs);
             sw.WriteLine(str);

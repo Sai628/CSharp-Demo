@@ -5,8 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProjectGuid>{B391E62C-F67C-48D4-A96A-6AED774FA6D0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpDemo</RootNamespace>
-    <AssemblyName>CSharpDemo</AssemblyName>
+    <RootNamespace>CSharpLearning</RootNamespace>
+    <AssemblyName>CSharpLearning</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">

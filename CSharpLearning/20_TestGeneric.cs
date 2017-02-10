@@ -1,6 +1,6 @@
 using System;
 
-namespace CSharpDemo
+namespace CSharpLearning
 {
     public delegate T NumberChangerWithGeneric<T>(T n);
     

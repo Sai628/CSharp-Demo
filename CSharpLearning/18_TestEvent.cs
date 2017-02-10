@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace CSharpDemo
+namespace CSharpLearning
 {
     class Boiler
     {
@@ -98,7 +98,7 @@ namespace CSharpDemo
         
         public static void DoTest()
         {
-            string filePath = Directory.GetCurrentDirectory() + "/CSharpDemo/bin/Debug/info.txt";
+            string filePath = Directory.GetCurrentDirectory() + "/CSharpLearning/bin/Debug/info.txt";
             BoilerInfoLogger fileLog = new BoilerInfoLogger(filePath);
             
             DelegateBoilerEvent boilerEvent = new DelegateBoilerEvent();

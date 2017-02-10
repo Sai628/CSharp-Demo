@@ -1,6 +1,6 @@
 using System;
 
-namespace CSharpDemo
+namespace CSharpLearning
 {
     class DivNumbers
     {
@@ -65,7 +65,7 @@ namespace CSharpDemo
             DivNumbers div = new DivNumbers();
             div.divison(12, 0);
             //Exception caught: System.DivideByZeroException: Attempted to divide by zero.
-            //  at CSharpDemo.DivNumbers.divison (Int32 num1, Int32 num2) [0x00002] in /Users/Sai/github/CSharp-Demo/CSharpDemo/11_TestException.cs:20
+            //  at CSharpLearning.DivNumbers.divison (Int32 num1, Int32 num2) [0x00002] in /Users/Sai/github/CSharp-Learning/CSharpLearning/11_TestException.cs:20
             
             
             Temperature temp = new Temperature();

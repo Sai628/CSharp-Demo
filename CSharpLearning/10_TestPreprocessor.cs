@@ -4,7 +4,7 @@
 
 using System;
 
-namespace CSharpDemo
+namespace CSharpLearning
 {
     public class TestPreprocessor
     {
